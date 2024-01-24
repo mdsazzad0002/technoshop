@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Bloger Admin</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap-icons/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal show d-block " tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <form class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center"><i class="bi bi-person"></i> Registration</h5>
+
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="Name">
+                                <i class="bi bi-person"></i> &nbsp; Name
+                            </label>
+                            <input class="form-control" placeholder="Enter your Name" type="text" name="name" id="Name">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="email">
+                                <i class="bi bi-envelope"></i> &nbsp; Email
+                            </label>
+                            <input class="form-control" placeholder="Enter your Email" type="text" name="email"
+                                id="email">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="Phone">
+                                <i class="bi bi-telephone"></i> &nbsp; Phone
+                            </label>
+                            <input class="form-control" placeholder="Enter your Phone" type="text" name="phone"
+                                id="Phone">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="gender">
+                                <i class="bi bi-gender-neuter"></i> &nbsp; Gender
+                            </label>
+                            <select class="form-select" placeholder="Enter your Gender" type="text" name="gender"
+                                id="gender">
+                                <option value="">Select Gender</option>
+                                <option value="1"> Male</option>
+                                <option value="2"> Female</option>
+                                <option value="3"> Third Gender</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="password">
+                                <i class="bi bi-key"></i> &nbsp; password
+                            </label>
+                            <input class="form-control" placeholder="Enter your password" type="text" name="password"
+                                id="password">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <a class="text-dark" href="login.html">Already have a account login now?</a>
+                        <button type="submit" class="btn btn-success"><i class="bi bi-box-arrow-in-right"></i>
+                            Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
